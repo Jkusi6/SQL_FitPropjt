@@ -243,7 +243,8 @@ If you have any questions or feedback, feel free to create an issue or reach out
 
 ## Contact Me
 
-📄 **[Resume]()**  
+📄 **[Resume]([Joré's Resume.docx](https://github.com/user-attachments/files/18272705/Jore.s.Resume.docx)
+)**  
 📧 **[Email](mailto:jorekusi@gmail.com)**  
 📞 **Phone**: +1-313-707-1870  
 
