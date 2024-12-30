@@ -2,7 +2,8 @@
 
 # FitPro Gym SQL Project
 
-![Project Image Placeholder](https://github.com/jkusi6/firpro-p1/blob/main/Fitpro.png) 
+![Fitpro_logo](https://github.com/user-attachments/assets/69348c5d-eec6-4978-9f96-ecc7f26e0aab)
+
 
 Welcome to my first SQL project, where I analyze real-time gym data from **FitPro Gym**! This project uses a dataset of **10,000 visit records** to explore and analyze gym membership and visit data, answering key business questions that can help a fitness center understand it's customer base better and optimize its services.
 
@@ -24,7 +25,7 @@ This project aims to demonstrate essential SQL skills by analyzing a dataset fro
 
 ## Project Structure
 
-1. **SQL Scripts**: Code to create the database schema and queries for analysis.
+1. **SQL Scripts**: Code to create the database schema and queries for analysis. 
 2. **Dataset**: Real-time data on gym visits, membership, and member demographics.
 3. **Analysis**: SQL queries solving practical business problems, each one crafted to address specific questions.
 
@@ -86,6 +87,7 @@ WHERE membership_type = 'Monthly'
 	AND ms.age >= 25; 
    ```
 5. Get details of **visits** on a specific date (**2024-01-01**).
+
 ```sql
  SELECT *
 FROM VISITS
@@ -118,7 +120,7 @@ Additional aggregations and grouping:
   FROM memberships
   GROUP BY membership_type;
    ```
-9. Calculate the average age of members, grouped by membership type.
+8. Calculate the average age of members, grouped by membership type.
   ```sql
   SELECT 
 	membership_type,
@@ -129,11 +131,11 @@ Additional aggregations and grouping:
 
 10. Total visits for each visit date.
     ```sql
-      SELECT
-	      visit_date,
-	      count(visit_date)
-      FROM visits
-      GROUP BY visit_date;  
+    SELECT
+	   visit_date,
+	   count(visit_date)
+    FROM visits
+    GROUP BY visit_date;  
     ```
 12. Count members by status (e.g., Active or Cancelled).
     ```sql
@@ -188,7 +190,7 @@ If you have any questions or feedback, feel free to create an issue or reach out
 ## Contact Me
 
 📄 **[Resume](#)**  
-📧 **[Email](mailto:your.email@example.com)**  
-📞 **Phone**: +123-456-7890  
+📧 **[Email](mailto:jorekusi@gmail.com)**  
+📞 **Phone**: +1-313-707-1870  
 
 --
