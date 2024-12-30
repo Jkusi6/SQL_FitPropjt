@@ -59,7 +59,7 @@ Here’s an overview of the database structure:
 The following queries were created to solve specific business questions. Each query is designed to provide insights based on gym membership and visit data.
 
 1. Retrieve the **name** and **membership_type** of female members.
-   ```sql
+```sql
 SELECT 
 	ms.membership_type,
 	ms.gender,
@@ -67,7 +67,7 @@ SELECT
 FROM memberships ms
 JOIN members m ON m.member_id = ms.member_id
 WHERE gender = 'F';
-   ``` 
+``` 
 2. Find members who have a **Monthly membership** and joined after **2023-11-01**.
 ```sql
 SELECT *
@@ -76,7 +76,7 @@ WHERE membership_type = 'Monthly'
 	AND join_date >= '2023-11-01';
 ```
 3. List the **name** and **status** of active members over **25**.
-   ```sql
+ ```sql
   SELECT 
 	  m.name,
 	  ms.status,
@@ -85,7 +85,7 @@ WHERE membership_type = 'Monthly'
   JOIN members m ON m.member_id = ms.member_id
   WHERE ms.status = 'Active'
 	AND ms.age >= 25; 
-   ```
+ ```
 5. Get details of **visits** on a specific date (**2024-01-01**).
 
 ```sql
@@ -113,7 +113,7 @@ Additional aggregations and grouping:
   GROUP BY member_id, visit_date;
   ```
 7. Count members by membership type (e.g., Monthly, Weekly, Quarterly).
-   ```sql
+```sql
   SELECT
 	membership_type,
 	count( membership_type)
